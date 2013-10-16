@@ -1,0 +1,22 @@
+{
+  "name": "limdu-demo",
+  "version": "0.1.0",
+  "description": "limdu-demo",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
+  "repository": "",
+  "dependencies": {
+	    "limdu": "latest"
+  },
+  "keywords": [
+    "Node.js",
+    "Eclipse",
+    "Nodeclipse",
+    "limdu"
+  ],
+  "author": "Erel",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
