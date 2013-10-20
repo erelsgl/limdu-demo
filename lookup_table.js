@@ -12,7 +12,7 @@ var TextClassifier = limdu.classifiers.multilabel.BinaryRelevance.bind(0, {
 // Initialize a classifier with a feature extractor and a lookup table:
 var intentClassifier = new limdu.classifiers.EnhancedClassifier({
 	classifierType: TextClassifier,
-	featureExtractor: limdu.features.NGramsFromText(1),  // each word ("1-gram") is a feature  
+	featureExtractor: limdu.features.NGramsOfWords(1),  // each word ("1-gram") is a feature  
 	featureLookupTable: new limdu.features.FeatureLookupTable()
 });
 
