@@ -1,4 +1,4 @@
-console.log("limdu demo start");
+console.log("limdu multi label demo start");
 
 // This example demonstrates the binary-relevance (aka one-vs-all) multi-label classification method.
 // The base binary classifier is Winnow, with a pre-specified parameter set. 
@@ -21,4 +21,4 @@ intentClassifier.trainBatch([
 
 console.dir(intentClassifier.classify({I:1,want:1,an:1,apple:1,and:1,a:1,banana:1}));  // ['APPLE','BANANA']
 
-console.log("limdu demo end");
+console.log("limdu multi label demo end");

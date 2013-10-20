@@ -1,4 +1,4 @@
-console.log("limdu demo start");
+console.log("limdu online learning demo start");
 
 //This example uses the Modified Balanced Margin Winnow classifier (Carvalho and Cohen, 2006):
 
@@ -19,4 +19,4 @@ birdClassifier.trainOnline({'wings': 1, 'flight': 0, 'beak': 1, 'penguin':1}, 1)
 birdClassifier.trainOnline({'wings': 0, 'flight': 1, 'beak': 0, 'bat': 1}, 0);     // learn that bat is not a bird, although it does fly
 console.dir(birdClassifier.classify({'wings': 1, 'flight': 0, 'beak': 1, 'chicken': 1})); // now, chicken is correctly classified as a bird, although it does not fly.  
 console.dir(birdClassifier.classify({'wings': 1, 'flight': 0, 'beak': 1, 'chicken': 1}, /*explanation level=*/4)); // why?  because it has winds and beak.
-console.log("limdu demo end");
+console.log("limdu online learning demo end");

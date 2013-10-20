@@ -1,4 +1,4 @@
-console.log("limdu demo start");
+console.log("limdu batch learning start");
 
 //This example uses the neural network implementation [brain.js, by Heather Arthur](https://github.com/harthur/brain).
 
@@ -14,4 +14,4 @@ colorClassifier.trainBatch([
 
 console.log(colorClassifier.classify({ r: 1, g: 0.4, b: 0 }));  // [0.987]
 
-console.log("limdu demo end");
+console.log("limdu batch learning end");
