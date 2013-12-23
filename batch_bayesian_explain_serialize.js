@@ -16,7 +16,7 @@ colorClassifier.trainBatch([
 	]);
 
 console.log(colorClassifier.classify({ r: 1, g: 0.4, b: 0 }, 
-		/* explanation level = */1));
+		/* explanation level = */4));
 
 // Serialization demo:
 var serialize = require('serialization');
