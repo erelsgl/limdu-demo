@@ -12,6 +12,7 @@ colorClassifier.trainBatch([
 	{input: { r: 0.5, g: 0.5, b: 1.0 }, output: 1},   // white
 	]);
 
-console.log(colorClassifier.classify({ r: 1, g: 0.4, b: 0 }));  // [0.987]
+console.log(colorClassifier.classify({ r: 1, g: 0.4, b: 0 }));  // [0.987] - white
+console.log(colorClassifier.classify({ r: .05, g: 0.4, b: 0.3 }));  // [0.393] - black
 
 console.log("limdu batch learning end");
