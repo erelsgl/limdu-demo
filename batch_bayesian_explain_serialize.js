@@ -3,7 +3,8 @@ console.log("limdu batch learning start");
 //This example uses the Naive Bayes implementation [classifier.js, by Heather Arthur](https://github.com/harthur/classifier).
 
 function newClassifierFunction() {
-	var limdu = require(__dirname + '/../limdu');
+	//var limdu = require(__dirname + '/../limdu');
+	var limdu = require('limdu');
 	return new limdu.classifiers.Bayesian({weight:0.001});
 }
 
