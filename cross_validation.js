@@ -28,7 +28,7 @@ var IntentClassifier = limdu.classifiers.EnhancedClassifier.bind(0, {
 var microAverage = new limdu.utils.PrecisionRecall();
 var macroAverage = new limdu.utils.PrecisionRecall();
 
-var verbosity = 0;
+var verbosity = 4;
 
 limdu.utils.partitions.partitions(dataset, numOfFolds, function(trainSet, testSet) {
 	console.log("Training on "+trainSet.length+" samples, testing on "+testSet.length+" samples");
