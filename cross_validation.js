@@ -1,6 +1,6 @@
 console.log("limdu cross-validation demo start");
 
-var limdu = require("../limdu");
+var limdu = require("limdu");
 
 // define a toy dataset:
 var dataset = [
